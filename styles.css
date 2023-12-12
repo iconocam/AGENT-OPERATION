@@ -3,8 +3,14 @@ h1 {
     color:aliceblue;
 }
 
-body {
+/* body {
     background-color:black
+} */
+
+body {
+    height: 100vh;
+    background: url("https://news.satcomdirect.com/wp-content/uploads/2020/09/NOC_at_SD_World_Headquarters.jpg");
+    background-size: 400px;
 }
 
 hr {
@@ -39,3 +45,6 @@ input[type=text], input[type=password] {
     background: #f1f1f1;
 }
 
+img {
+
+}
