@@ -7,8 +7,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
+    <div id="page1">
     <h1> Agent Operations</h1>
     
+    <div class="header">
+        <a href="#default" class="logo">Intelligencia</a>
+        <div class="headerlinks">
+            <a class= "active" href="#home">Hello</a>
+            <a href="#Contact">Are you having issues, Agent?</a>
+            
+        </div>
+    </div>
+    
+    <div class="apple"style="padding-left:20px">
+    <h1><b>Hello</b></h1></div>
+
     <form action="/index.html">
         <div class="container">
             <h2>Confidential</h2>
@@ -26,12 +40,17 @@
             <hr>
             <p>By completing the above objectives, we may access your files from here, <a href ="#"> Extract from Brain</a></p>
 
-            <button type="submit" class="buttons">Complete</button>
+            <button id= "Link" type="submit" class="buttons">Complete</button>
 
             
         </div>
     </form>
+    </div>
+
+    <!-- <button id="Link">Generate Next Page</button> -->
     
+    <div id="display"></div>
+    <button id="generateButton">Generate Data</button>
 </body>
 <script src="script.js"></script>
 </html>
